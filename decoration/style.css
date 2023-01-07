@@ -46,8 +46,27 @@
 }
 .failure{
     display: flex;
-    text-align: right;
+    justify-content: space-between;
+    gap: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
-.about-failute{
-    text-align: right;
+.about-failure{
+    text-align: left;
+    margin-top: 200px;
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.list-item{
+    list-style-type: unset;
+    font-size: medium;
+    margin-top: 8px;
+}
+.failure-description{
+    margin-top: 18px;
+    font-size: medium;
 }
