@@ -55,18 +55,59 @@
     text-align: left;
     margin-top: 200px;
     font-family: 'Open Sans', sans-serif;
+    line-gap-override: 3px;
+    row-gap: 2px;
+    word-spacing: 2px;
 }
 .title{
     font-size: 38px;
     font-weight: 700;
 
 }
-.list-item{
-    list-style-type: unset;
+
+ul {
     font-size: medium;
-    margin-top: 8px;
-}
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: aqua;
+  }
 .failure-description{
-    margin-top: 18px;
+    margin-top: 26px;
     font-size: medium;
+}
+/* my plan */
+.plans{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: ;
+}
+.my-plan-container{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 180px;
+    margin-right: 70px;
+
+}
+.plan-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.plan-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
