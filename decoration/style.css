@@ -91,6 +91,32 @@ ul {
     margin-top: 26px;
     font-size: medium;
 }
+/* where i wanna go */
+.visiting{
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.visiting-item{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70;
+    padding-right: 60;
+    margin-left: 80px;
+}
+.area-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.visit-description{
+    color: #757575;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 /* my plan */
 .plans{
     text-align: center;
@@ -133,6 +159,7 @@ ul {
     margin-left: 100px;
     background-size: cover;
     margin-bottom: 180px;
+    margin-top: 180px;
 }
 
 .watchstyle{
